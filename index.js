@@ -1,5 +1,5 @@
 const app = "I don't do much."
 
-function destructivelyAppendKitten(name) {
-  return name.pop("kitten")
+function destructivelyAppendKitten(kittens) {
+  return kittens.pop("kitten")
 }
